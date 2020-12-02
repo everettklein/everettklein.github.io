@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    /* line-height: 150%; */
+
+}
+
+
+body {
+    margin: 0;
+}
+
+.all {
+    background-color: rgb(255, 250, 235);
+    line-height: 150%;
+
+}
+
+
+
+
+/* BODY: DESKTOP GRID */
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "b p"
+        ;
+    /* background-color: rgb(241, 210, 245); */
+    background-color: rgb(255, 250, 235);
+    font-family: sans-serif;
+    gap: 1em 4em;
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+
+/* BODY: mobile grid */
+@media screen and (max-width: 1500px) {
+    .container {
+        display: grid;
+        /* grid-gap: 10px; */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "b"
+            "p"
+            ;
+        width: 85%;
+        margin: 0 auto;
+        /* margin-top: 8em; */
+    }
+}
+
+
+
+
+
+
+
+.bio {
+    grid-area: b;
+    /* padding-top: 4em; */
+}
+
+.bio p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.picture {
+    grid-area: p;
+    padding: 20px;
+    padding-top: 5em;
+    padding-bottom: 100px;
+    /* padding: 2em; */
+    text-align: center;
+    
+}
+
+
+#heavy {
+    font-weight: bold;
+}
+
+
+
+
+
+
+h3 {
+    /* text-transform: uppercase; */
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding: 1.5em;
+}
+
+/* h2 {
+    font-size: 30px;
+} */
+
+.container {
+    line-height: 200%;
+}
+

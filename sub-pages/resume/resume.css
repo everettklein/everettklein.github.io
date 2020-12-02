@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    /* line-height: 150%; */
+
+}
+
+
+body {
+    margin: 0;
+}
+
+.all {
+    background-color: rgb(255, 250, 235);
+    line-height: 150%;
+
+}
+
+
+
+
+/* desktop grid */
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "b p"
+        "o e"
+        "d a"
+        "c c"
+        ;
+    /* background-color: rgb(241, 210, 245); */
+    background-color: rgb(255, 250, 235);
+    font-family: sans-serif;
+    gap: 1em 4em;
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+
+/* mobile grid */
+@media screen and (max-width: 1500px) {
+    .container {
+        display: grid;
+        /* grid-gap: 10px; */
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "b"
+            "p"
+            "e"
+            "o"
+            "d"
+            "a"
+            "c"
+            ;
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+/* .navigation {
+    background-color: rgb(68, 32, 66);
+} */
+
+
+
+/* .name {
+    grid-area: n;
+    font-family: 'Cinzel Decorative', cursive;
+    color:rgb(247, 227, 160);
+    padding: 50px;
+    padding-left: 100px;
+    background: rgba(39, 41, 46, 1);
+    line-height: 120%;
+
+} */
+
+/* .name h1 {
+    font-size: 40px;
+} */
+
+.contact {
+    grid-area: c;
+    /* padding: 20px; */
+}
+
+.bio {
+    grid-area: b;
+    /* padding: 20px;     */
+}
+
+.picture {
+    grid-area: p;
+    padding: 20px;
+    /* padding-top: 80px; */
+    /* padding-bottom: 100px; */
+    text-align: center;
+    
+}
+
+.education {
+    grid-area: e;
+    /* padding: 20px; */
+}
+
+.organizational {
+    grid-area: o;
+    /* padding: 20px; */
+}
+
+.digital {
+    grid-area: d;
+    /* padding: 20px; */
+}
+
+.activities {
+    grid-area: a;
+    /* padding: 20px; */
+}
+
+#heavy {
+    font-weight: bold;
+}
+
+
+
+/* FAVICON LOGO */
+
+
+/* .logo {
+    grid-area: l;
+    width: 100%;
+    background: rgba(39, 41, 46, 1);
+    text-align: right;
+    padding-top: 25px;
+} */
+
+/* logo position doesnt work well with mobile layout */
+
+
+h3 {
+    /* text-transform: uppercase; */
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+}
+
+h2 {
+    /* text-align: center; */
+    font-size: 30px;
+}
+
+.container {
+    line-height: 200%;
+    padding: 50px;
+}
+
+ul {
+    font-size: 1em;
+}
