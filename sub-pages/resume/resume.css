@@ -84,6 +84,7 @@ body {
 
 .contact {
     grid-area: c;
+    line-height: normal;
     /* padding: 20px; */
 }
 

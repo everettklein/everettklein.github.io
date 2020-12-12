@@ -79,5 +79,6 @@ body {
  
 .description p {
   font-size: 17px;
+  text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

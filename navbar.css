@@ -107,3 +107,22 @@ footer {
 }
 
 
+.svg {
+    fill: burlywood;
+}
+
+.svg :hover {
+    fill: darkred;
+}
+
+.icon-container {
+    display: grid;
+    /* margin: 0 auto; */
+    text-align: center;
+    width: 100%;
+}
+
+
+/* * {
+    border: dashed;
+} */

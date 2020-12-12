@@ -28,6 +28,7 @@
   
   .hovereffect:hover img {
     filter:blur(3px);
+    opacity: 50%;
     -webkit-filter: blur(3px);
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -62,9 +63,11 @@
     opacity: 0;
     filter: alpha(opacity=0);
     color: #ffffff;
+    /* color: burlywood; */
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
+    /* font-weight: bold; */
     letter-spacing: 1px;
     margin-top:80px;
   }
