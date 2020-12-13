@@ -117,12 +117,28 @@ footer {
 
 .icon-container {
     display: grid;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
+    width: 25%;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-areas: 
+    " y z "
+    ;
+    
 }
 
+.linkedin {
+    grid-area: y;
+}
 
+.instagram {
+    grid-area: z;
+}
+
+.credit {
+    text-align: center;
+    padding-top: 20px;
+}
 /* * {
     border: dashed;
 } */
